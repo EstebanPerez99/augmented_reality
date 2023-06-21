@@ -1,10 +1,10 @@
 import Mindar from "./Mindar";
 
-import img1 from "./assets/img1.JPEG";
-import img2 from "./assets/img2.JPEG";
-import img3 from "./assets/img3.JPEG";
-import img4 from "./assets/img4.JPEG";
-import img5 from "./assets/img5.JPEG";
+import img1 from "./assets/img1.jpeg";
+import img2 from "./assets/img2.jpeg";
+import img3 from "./assets/img3.jpeg";
+import img4 from "./assets/img4.jpeg";
+import img5 from "./assets/img5.jpeg";
 import img6 from "./assets/img6.jpg";
 import img7 from "./assets/img6.jpg";
 import img8 from "./assets/img6.jpg";
