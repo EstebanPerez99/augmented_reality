@@ -1,15 +1,26 @@
 import Mindar from "./Mindar";
+
 import img1 from "./assets/img1.jpeg";
 import img2 from "./assets/img2.jpg";
 import img3 from "./assets/img3.jpeg";
 import img4 from "./assets/img4.png";
-
+import { useEffect, useState } from "react";
 export default function App() {
+	const [idx, setIdx] = useState(0);
+	const images = [img1, img2, img3, img4];
+	useEffect(() => {
+		setInterval(() => {
+			const newImg = idx + 1 >= 4 ? 0 : idx + 1;
+			setIdx(newImg);
+		}, 2000);
+	}, []);
+
+	console.log(idx);
 	return (
 		<div className='bg-yellow-200 min-w-full h-screen App flex flex-col'>
 			<p>Flipante.mag XD</p>
 			<div className='container'>
-				<Mindar />
+				<Mindar img={images[idx]} />
 				<video></video>
 			</div>
 			<div style={{ position: "absolute", top: 100, left: 100 }}>
