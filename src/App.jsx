@@ -9,11 +9,11 @@ export default function App() {
 	const [idx, setIdx] = useState(0);
 	const images = [img1, img2, img3, img4];
 	useEffect(() => {
-		setInterval(() => {
+		setTimeout(() => {
 			const newImg = idx + 1 >= 4 ? 0 : idx + 1;
 			setIdx(newImg);
-		}, 2000);
-	}, []);
+		}, 1000);
+	}, [idx]);
 
 	console.log(idx);
 	return (
