@@ -14,7 +14,7 @@ export default function Mindar() {
 		setInterval(() => {
 			const newImg = idx + 1 >= 4 ? 0 : idx + 1;
 			setIdx(newImg);
-		}, 1000);
+		}, 2000);
 	}, []);
 
 	console.log(idx);
@@ -33,7 +33,7 @@ export default function Mindar() {
 					opaciy='0.5'
 					position='0 0 0'
 					height='1'
-					width='0.5625'
+					width='1'
 					rotation='0 0 0'
 				></a-plane>
 			</a-entity>
