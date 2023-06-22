@@ -18,7 +18,7 @@ export default function Mindar({ img }) {
 					opaciy='0.5'
 					position='0 0 0'
 					height='1'
-					width='0.6'
+					width='1'
 					rotation='0 0 0'
 				></a-plane>
 			</a-entity>
