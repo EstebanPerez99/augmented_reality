@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import "aframe";
 import "mind-ar/dist/mindar-image-aframe.prod.js";
@@ -17,7 +18,7 @@ export default function Mindar({ img }) {
 					opaciy='0.5'
 					position='0 0 0'
 					height='1'
-					width='1'
+					width='0.3'
 					rotation='0 0 0'
 				></a-plane>
 			</a-entity>
