@@ -16,8 +16,8 @@ export default function Mindar({ img }) {
 					color='blue'
 					opaciy='0.5'
 					position='0 0 0'
-					// height='0.552'
-					height='1'
+					height='0.552'
+					// height='1'
 					width='1'
 					rotation='0 0 0'
 				></a-plane>
