@@ -14,9 +14,9 @@ export default function Mindar({ img }) {
 			<a-entity mindar-image-target='targetIndex: 0'>
 				<a-plane
 					color='blue'
-					// src={img}
 					opaciy='0.5'
 					position='0 0 0'
+					// height='0.552'
 					height='1'
 					width='1'
 					rotation='0 0 0'
