@@ -20,7 +20,7 @@ export default function App() {
 		<div className='bg-yellow-200 min-w-full h-screen App flex flex-col'>
 			<div className='container'>
 				{/* <Mindar img={images[idx]} /> */}
-				<Mindar img={img_test} />
+				<Mindar />
 				<video></video>
 			</div>
 			<div style={{ position: "absolute", top: 100, left: 100 }}>

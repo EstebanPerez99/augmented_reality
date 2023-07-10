@@ -3,7 +3,8 @@
 import "aframe";
 import "mind-ar/dist/mindar-image-aframe.prod.js";
 
-export default function Mindar({ img }) {
+export default function Mindar() {
+	// export default function Mindar({ img }) {
 	return (
 		<a-scene
 			mindar-image='imageTargetSrc: ./targets.mind;'
@@ -15,7 +16,7 @@ export default function Mindar({ img }) {
 				<a-plane
 					src='./over_img.jpg'
 					// opaciy='0.5'
-					opaciy='1'
+					// opaciy='1'
 					position='0 0 0'
 					height='1'
 					width='0.4'
