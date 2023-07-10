@@ -13,7 +13,7 @@ export default function App() {
 		setTimeout(() => {
 			const newImg = idx + 1 >= images.length ? 0 : idx + 1;
 			setIdx(newImg);
-		}, 1000);
+		}, 2000);
 	}, [idx]);
 
 	return (
