@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import img_test from "./assets/over_img.jpg";
 import "aframe";
 import "mind-ar/dist/mindar-image-aframe.prod.js";
 
@@ -13,12 +14,13 @@ export default function Mindar({ img }) {
 			<a-camera position='0 0 0' look-controls='enabled: false'></a-camera>
 			<a-entity mindar-image-target='targetIndex: 0'>
 				<a-plane
-					color='blue'
+					// color='blue'
+					src={img_test}
 					opaciy='0.5'
 					position='0 0 0'
-					height='0.552'
-					// height='1'
-					width='1'
+					// height='0.552'
+					height='1'
+					width='0.552'
 					rotation='0 0 0'
 				></a-plane>
 			</a-entity>
