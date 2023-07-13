@@ -47,9 +47,9 @@ export default function App() {
 				{/* <Mindar /> */}
 				{/* <video></video> */}
 			</div>
-			<div style={{ position: "absolute", top: 100, left: 100 }}>
+			{/* <div style={{ position: "absolute", top: 100, left: 100 }}>
 				<img src={img1} alt='ola m' style={{ width: "100px" }} />
-			</div>
+			</div> */}
 		</div>
 	);
 }
