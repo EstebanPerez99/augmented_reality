@@ -14,7 +14,7 @@ export default function Mindar({ img }) {
 			<a-camera position='0 0 0' look-controls='enabled: false'></a-camera>
 			<a-entity mindar-image-target='targetIndex: 0'>
 				<a-plane
-					src={img}
+					src={`./${img}.png`}
 					opaciy='1'
 					position='0 0 0'
 					height='1'

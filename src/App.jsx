@@ -1,37 +1,24 @@
 import { useEffect, useState } from "react";
 import Mindar from "./Mindar";
-import img1 from "./assets/a.png";
-import img2 from "./assets/b.png";
-import img3 from "./assets/c.png";
-import img4 from "./assets/d.png";
-import img5 from "./assets/e.png";
-import img6 from "./assets/f.png";
-import img7 from "./assets/g.png";
-import img8 from "./assets/h.png";
-import img9 from "./assets/i.png";
-import img10 from "./assets/j.png";
-import img11 from "./assets/k.png";
-import img12 from "./assets/l.png";
-import img13 from "./assets/m.png";
-import img14 from "./assets/n.png";
+// import img1 from "./assets/a.png";
 
 export default function App() {
 	const [idx, setIdx] = useState(0);
 	const images = [
-		img1,
-		img2,
-		img3,
-		img4,
-		img5,
-		img6,
-		img7,
-		img8,
-		img9,
-		img10,
-		img11,
-		img12,
-		img13,
-		img14,
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g",
+		"h",
+		"i",
+		"j",
+		"k",
+		"l",
+		"m",
+		"n",
 	];
 	useEffect(() => {
 		setTimeout(() => {
